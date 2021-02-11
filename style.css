@@ -26,7 +26,21 @@ body {
     width: 30%;
 }
 
-#main > p {
+.paragraph-text {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.paragraph-text a {
+    text-decoration: none;
+    color: #B4B8C2;
+    font-weight: bold;
+}
+.paragraph-text a:hover {
+    color: #FFFFFF;
+}
+
+.paragraph-text > p {
     color: #B4B8C2;
     font-size: 13pt;
 }
@@ -34,7 +48,7 @@ body {
 .seperator {
     border-top: 1px solid #B4B8C2;
     height: 1px;
-    margin: 30px 0 10px 10px;
+    margin: 30px 0;
 }
 
 #footer {
